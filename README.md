@@ -7,4 +7,3 @@ A PowerApp frontend for internal staff (WG Owner/Admins) and Vue.js front-end wi
 - npm i vue@latest
 - npm i -D vite @vitejs/plugin-vue
 - npm i bootstrap @popperjs/core
-- npm i -D sass
