@@ -1,0 +1,20 @@
+{
+  "name": "community-workgroups",
+  "version": "1.0.0",
+  "description": "Power Platform App for tracking workgroups for a community",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jplovett/Community-Workgroups.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jplovett/Community-Workgroups/issues"
+  },
+  "homepage": "https://github.com/jplovett/Community-Workgroups#readme"
+}
