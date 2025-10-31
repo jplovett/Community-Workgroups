@@ -1,0 +1,32 @@
+/* Ensure root fills viewport */
+:root, html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* App shell — full viewport, column flex */
+#app, .app-shell {
+  min-height: 100vh;          /* ensures full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* main content grows to take available space */
+.container {
+  flex: 1 1 auto;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+/* footer stays after content and is pinned to bottom when content is short */
+.app-footer {
+  flex-shrink: 0;
+  border-top: 1px solid #eee;
+  padding: 12px;
+  text-align: center;
+  background: #fff;
+  box-sizing: border-box;
+}
