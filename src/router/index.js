@@ -1,8 +1,8 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Home from "../components/Home.vue";
-import Todos from "../components/Todos.vue";
-import FetchDemo from "../components/FetchDemo.vue";
-import About from "../components/About.vue";
+import Home from "../views/Home.vue";
+import Todos from "../views/Todos.vue";
+import FetchDemo from "../views/FetchDemo.vue";
+import About from "../views/About.vue";
 import DefaultFooter from "../components/DefaultFooter.vue";
 import TodosFooter from "../components/TodosFooter.vue";
 
