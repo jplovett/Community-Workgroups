@@ -1,1 +1,1 @@
-Community Workgroups vuejs front-end, dataverse with powerapp back end.
+Community Workgroups vue.js front-end, dataverse with powerapp back end.
