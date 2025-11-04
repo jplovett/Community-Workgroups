@@ -1,6 +1,6 @@
 <script setup>
-   import AppHeader from './components/AppHeader.vue';
-   import AppFooter from './components/AppFooter.vue';
+   import AppHeader from './components/global/AppHeader.vue';
+   import AppFooter from './components/global/AppFooter.vue';
 </script>
 
 <style>
@@ -25,7 +25,7 @@ main {
 </style>
 
 <template>
-  <div id="app">
+  <div class="app-shell">
     <AppHeader />
     <main>
       <router-view />
