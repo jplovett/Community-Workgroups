@@ -1,14 +1,21 @@
 <script setup>
-   import AppHeader from './components/global/AppHeader.vue';
-   import AppFooter from './components/global/AppFooter.vue';
+
+import AppHeader from './components/global/AppHeader.vue';
+import AppFooter from './components/global/AppFooter.vue';
 </script>
 
+<template>
+  <div>
+    <AppHeader />
+    <main>
+      <router-view />
+    </main>
+    <AppFooter />
+  </div>
+</template>
 <style>
 /* Basic app styles for the layout */
 #app {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   min-height: 100vh;
@@ -23,13 +30,3 @@ main {
   padding: 20px;
 }
 </style>
-
-<template>
-  <div class="app-shell">
-    <AppHeader />
-    <main>
-      <router-view />
-    </main>
-    <AppFooter />
-  </div>
-</template>

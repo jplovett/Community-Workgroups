@@ -1,20 +1,19 @@
 <template>
     <header>
         <h1>My Vue App</h1>
-        <nav>
-            <router-link to="/">Home</router-link> |
-            <router-link to="/about">About</router-link> |
-            <router-link to="/members">Members</router-link> |
-            <router-link to="/workgroups">Workgroups</router-link>
-            <router-link to="/member/1620">Member</router-link> |
-            <router-link to="/workgroup/420">Workgroup</router-link>
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <router-link to="/" class="nav-link">Home</router-link> |
+            <router-link to="/about" class="nav-link">About</router-link> |
+            <router-link to="/members" class="nav-link">Members</router-link> |
+            <router-link to="/workgroups" class="nav-link">Workgroups</router-link>
+            <router-link to="/member/1620" class="nav-link">Member</router-link> |
+            <router-link to="/workgroup/420" class="nav-link">Workgroup</router-link>
         </nav>
     </header>
 </template>
 
 <style scoped>
 header {
-    background-color: #f4f4f4;
     padding: 20px;
     text-align: center;
     border-bottom: 1px solid #ddd;

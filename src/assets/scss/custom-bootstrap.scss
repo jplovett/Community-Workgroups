@@ -2,21 +2,31 @@
 @import "bootstrap/scss/functions";
 @import "bootstrap/scss/variables";
 
-// 2. Override Bootstrap variables here
-// Example: Change the primary color to a custom blue
-$primary: #0b6f0b; 
-// Example: Change the success color to a custom green
-$success: #2874a7;
-// Example: Change the body background color
+// Override Bootstrap variables here
+$primary: #003057;
+$secondary: #a9a9a9;
+$success: #0b6f0b;
+$info: #b0c4de;
+$warning: #bdb76b;
+$danger: #b22222;
+$light: #eeeeee;
+$dark: #1620;
+$muted: #888888;
 $body-bg: #f8f9fa;
 // Example: Enable shadows globally
 $enable-shadows: true; 
 
 $theme-colors: (
-  "primary": $primary,
-  "success": $success,
-  "light": $light
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
 );
 
-// 3. Import the rest of Bootstrap to apply your changes
+// Import the rest of Bootstrap to apply your changes
 @import "bootstrap/scss/bootstrap";
+@import "./main.scss"

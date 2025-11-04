@@ -1,7 +1,7 @@
 <template lang="html">
-    <div class="workgroup-detail-view">
+    <div class="member-view">
 
-        workgroup# {{ $route.params.id }} detail
+        Member# {{ $route.params.id }} detail
     </div>
 </template>
 

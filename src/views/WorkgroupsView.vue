@@ -1,6 +1,6 @@
 <template>
-  <div class="view-content">
+  <div class="workgroups-list-view">
     <h2>Workgroups Page</h2>
-    <p>All of the workgroups are are a member or guest of.</p>
+    <p>All of the workgroups on the site.</p>
   </div>
 </template>

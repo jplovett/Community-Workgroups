@@ -1,5 +1,5 @@
 <template>
-    <div class="view-content">
+    <div class="content-view">
         <h2>Home Page</h2>
         <p>Welcome to the home page!</p>
         <div class="container p-3">
