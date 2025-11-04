@@ -13,6 +13,7 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         { path: '/', name: 'Home', component: HomeView },
+        { path: '/brand', name: 'brand', component: HomeView },
         { path: '/members', name: 'Members', component: MemberList },
         { path: '/member/:id', name: 'Member', component: MemberItem },
         { path: '/workgroup/:id', name: 'Workgroup', component: WorkgroupItem },
