@@ -6,7 +6,8 @@ import MemberList from './views/MembersView.vue';
 import MemberItem from './views/MemberView.vue';
 import WorkgroupList from './views/WorkgroupsView.vue';
 import WorkgroupItem from './views/WorkgroupView.vue';
-import './assets/scss/custom-bootstrap.scss';
+import Colors from './views/ColorsView.vue';
+import './assets/scss/main.scss';
 import App from './App.vue';
 
 const router = createRouter({
@@ -18,6 +19,7 @@ const router = createRouter({
         { path: '/member/:id', name: 'Member', component: MemberItem },
         { path: '/workgroup/:id', name: 'Workgroup', component: WorkgroupItem },
         { path: '/Workgroups', name: 'Workgroups', component: WorkgroupList },
+        { path: '/colors', name: 'Colors', component: Colors },
     ],
 });
 

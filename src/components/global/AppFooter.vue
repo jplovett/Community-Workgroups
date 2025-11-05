@@ -1,12 +1,11 @@
 <template>
-  <footer>
+  <footer class="bg-dark text-light">
     <p>&copy; 2025 My Vue App</p>
   </footer>
 </template>
 
 <style scoped>
 footer {
-  background-color: #f4f4f4;
   padding: 10px;
   text-align: center;
   border-top: 1px solid #ddd;
